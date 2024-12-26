@@ -8,13 +8,17 @@ importers:
     dependencies:
       lodash: 4.17.21
 
-  packages/rsl-npm:
+  packages/rsl-components:
+    specifiers: {}
+
+  packages/rsl-share:
     specifiers: {}
 
   packages/vue2-app:
     specifiers:
       '@babel/core': ^7.12.16
       '@babel/eslint-parser': ^7.12.16
+      '@rsl/share': workspace:^1.0.0
       '@vue/cli-plugin-babel': ~5.0.0
       '@vue/cli-plugin-eslint': ~5.0.0
       '@vue/cli-plugin-router': ~5.0.0
@@ -33,6 +37,7 @@ importers:
       vue-template-compiler: ^2.6.14
       vuex: ^3.6.2
     dependencies:
+      '@rsl/share': link:../rsl-share
       core-js: 3.39.0
       vue: 2.7.16
       vue-router: 3.6.5_vue@2.7.16
