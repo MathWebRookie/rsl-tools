@@ -1,0 +1,15 @@
+{
+  "name": "rsl-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "pnpm -F vue2-app serve",
+    "dev": "pnpm -F vue3-app dev",
+    "build-2": "pnpm -F vue2-app build",
+    "build-3": "pnpm -F vue3-app build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
