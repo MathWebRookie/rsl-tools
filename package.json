@@ -7,7 +7,8 @@
     "serve": "pnpm -F vue2-app serve",
     "dev": "pnpm -F vue3-app dev",
     "build-2": "pnpm -F vue2-app build",
-    "build-3": "pnpm -F vue3-app build"
+    "build-3": "pnpm -F vue3-app build",
+    "format": "prettier --write \"./packages/**/*.{js,jsx,ts,tsx,vue,scss,css,json,md}\""
   },
   "keywords": [],
   "author": "",
